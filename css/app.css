@@ -1,0 +1,24 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.map {
+    height: 100%;
+}
+.control-button {
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    padding-top: 7px;
+    background-color: #FFF;
+    font-size: 15px;
+    border: solid #000 1px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.control-button.selected {
+    background-color: #4F4D3F;
+    color: #FFF;
+}
